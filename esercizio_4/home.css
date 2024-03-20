@@ -1,0 +1,84 @@
+body {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: rgb(255, 206, 142);
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    color: #690303;
+}
+
+h2 {
+    color: saddlebrown;
+}
+
+
+.dimension {
+    height: 200px;
+}
+
+/*
+.text_footer {
+    text-align: right;
+    font-size: 0.8rem;
+}
+*/
+/*sbagliato approccio, era meglio usare → "footer p"*/
+
+footer p {
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+a:hover {
+    color: rgb(159, 119, 19);
+}
+
+a {
+    color: #690303;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    border: solid rgb(209, 119, 0) 2.5px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+
+img:hover {
+    border: solid rgb(117, 109, 0) 3px;
+}
+
+footer {
+    background-color: rgb(222, 199, 169);
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-row-gap: 150px;
+    grid-column-gap: 250px;
+}

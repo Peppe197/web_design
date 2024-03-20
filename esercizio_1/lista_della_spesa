@@ -1,0 +1,23 @@
+<!doctype html>
+<head>
+<h1>La mia lista della spesa</h1>
+</head>
+<body>
+<p>Ricordati di comprare la verdura al mercato</p>
+<ul>
+    <li>zucchine</li>
+    <li>pomodori</li>
+    <li>pasta</li>
+    <li>riso</li>
+</ul>
+<h2>Spesa per strudel di sabato</h2>
+<ol>
+    <li>cannella</li>
+    <li>pasta sfoglia</li>
+    <li>mele</li>
+    <li>uova</li>
+    <li>noci</li>
+</ol>
+</body>
+<footer></footer>
+</html>
