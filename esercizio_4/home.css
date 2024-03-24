@@ -82,3 +82,36 @@ footer {
     grid-row-gap: 150px;
     grid-column-gap: 250px;
 }
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". img1 img2 . . img3"
+    "img4 . img5 . img6 .";
+
+}
+
+.box1{
+    grid-area: img1;
+}
+
+.box2{
+    grid-area: img2;
+}
+
+.box3{
+    grid-area: img3;
+}
+
+.box4{
+    grid-area: img4;
+}
+
+.box5{
+    grid-area: img5;
+}
+
+.box6{
+    grid-area: img6;
+}
