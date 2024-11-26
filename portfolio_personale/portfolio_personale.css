@@ -36,7 +36,6 @@ header {
 .flex_logo{
     display:flex;
     align-items: center;
-    /* margin-bottom: 1.3vh; */
 }
 
 .h3_header{
@@ -44,7 +43,6 @@ header {
     align-content: center;
     color: #FFFFFF;
     margin-right: 3vw;
-    /* margin-bottom: 1.3vh; */
     font-size: 1.8vw;
     font-weight: 500;
 }
@@ -76,8 +74,7 @@ body{
 .left_text_main{
     display:flex;
     align-items: center;
-    /* font-size: 2.63vw;
-    color: #FDF7E9; */
+    letter-spacing: 0.2vw;
     background-color: #E53144;
     z-index: 1;
 }
@@ -149,25 +146,6 @@ body{
     margin-left: 10vw;
     background:#FBD281;
 }
-
-/* .div_for_circle{
-    display: flex;
-    width:100vw;
-    height:100vw;
-}
-
-.half_circle{
-    display: flex;
-    float: left;
-    width: 7.81vw;
-    height: 7.81vw;
-    clip-path: circle(50% at 0%);
-    background: #F8B300;
-    transform: rotate(270deg);
-    margin-left:50vw;
-    margin-right:100vw;
-} */
-
 /* MAIN 2 */
 
 .block_main_2{
@@ -215,40 +193,43 @@ body{
 .red_quad_main_2{
     display: flex;
     flex-direction: column;
-    width: 28vw;
-    height: 28vw; 
+    width: 20vw;
+    height: 20vw; 
     /* margin-top: 23.4vw; */
     margin-left: 6vw;
     background:#E53144;
 }
 
 .p_main_2{
-    margin: 3vw;
-    font-size: 0.7rem;
-    font-size: 1.5vw;
+    margin: 1.5vw;
+    font-size: 1.2vw;
     font-weight: 50;
     color: #FFFFFF;
 }
 
-.red_quad_main_2 a {
-    font-size:1.5vw;
-    margin:3vw;
+.link_2{
+    font-size:1.1vw;
+    margin:1.5vw;
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 100;
-}
-
-.red_quad_main_2 a:hover{
-    text-decoration: underline;
 }
 
 /* MAIN 3 */
 
 .block_main_3{
     display:flex;
+    flex-direction: column;
     width: 100vw;
     height: 74.03vh;
     background-color: #FDF7E9;
+}
+
+.div_h2_3{
+    display: flex;
+    justify-content: space-between;
+    height:11vw;
+    /* width:33vw; */
 }
 
 .h2_main_3{
@@ -258,3 +239,139 @@ body{
     margin-left: 2vw;
     padding-top: 1.5vh;
 }
+
+.h1_project_main_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 18.5vw; */
+    color:#FDF7E9;
+    font-size: 4vw;
+    writing-mode: vertical-rl;
+    letter-spacing: 0.2vw;
+}
+
+.div_for_quad_3{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    /* height:31.2vw; */
+    margin-bottom: 100vh;
+    height:55vh;
+    width:100vw;
+}
+
+.orange_quad_main_3{
+    display: flex;
+    width: 7.81vw;
+    height: 7.81vw; 
+    margin-top: 14.4vw;
+    margin-left: 13vw;
+    background:#ED7D62;
+}
+
+.yellow_quad_main_3{
+    display: flex;
+    width: 3.9vw;
+    height: 3.9vw; 
+    margin-top: 18.35vw;
+    margin-left: 11vw;
+    background:#F8B300;
+}
+
+.light_quad_main_3{
+    display: flex;
+    width: 1.95vw;
+    height: 1.95vw; 
+    margin-top: 20.28vw;
+    margin-left: 2vw;
+    background:#FBD281;
+}
+
+.img_project_3{
+    display: flex;
+    margin-top: 1.25vw;
+    margin-left: 11vw;
+    width: 18vw;
+    height: 18vw;
+    border: 1.5vw solid #B31937;
+    transition: 0.3s ease-out;
+}
+
+.img_project_3:hover{
+    display: flex;
+    margin-top: 1.25vw;
+    margin-left: 11vw;
+    width: 18vw;
+    height: 18vw;
+    background-color: #E53144;
+    border: 1.5vw solid #B31937;
+    filter: saturate(135%) sepia(10%) brightness(104%);
+    transition: 0.3s ease-in;
+
+}
+
+.bloccone{
+    display: flex;
+    justify-content: center;
+    background-color: #E53144;
+    height: 75vh;
+    width: 22vw;
+    z-index: 1;
+}
+
+/* FOOTER */
+
+.block_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    background-color:#B31937;
+    width: 100vw;
+    height:7vw;
+    z-index: 2;
+}
+
+.div_logo_footer{
+    display: flex;
+    margin-top: 0.5vw;
+    /* height: 15vh; */
+}
+
+.logo_footer{
+    width:2.3vw;
+    height: 2.3vw;
+}
+
+.logo_footer:hover{
+    padding: 0 1.5vw;
+    background-color: #E53144;
+    transition: 200ms ease-in;
+}
+
+.div_icons_footer{
+    display: flex;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+}
+
+.div_icons_footer img{
+    width:3vw;
+    height:3vw;
+    margin: 0 0.5vw;
+    transition: 200ms ease-in;
+}
+
+.div_icons_footer img:hover{
+    padding: 0 1.5vw;
+    background-color: #E53144;
+    transition: 200ms ease-in;
+}
+/* .div_icons_footer img:hover:after{
+    content: "";
+    transition: 200ms ease-in;
+} */
