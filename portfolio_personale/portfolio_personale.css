@@ -102,7 +102,7 @@ body{
 }
 
 .h2_main{
-    font-size: 3.1vw;
+    font-size: 3vw;
     font-weight: 600;
 }
 
@@ -143,7 +143,7 @@ body{
     width: 1.95vw;
     height: 1.95vw; 
     margin-top: 29.28vw;
-    margin-left: 10vw;
+    margin-left: 8.5vw;
     background:#FBD281;
 }
 /* MAIN 2 */
@@ -331,14 +331,13 @@ body{
     position:absolute;
     background-color:#B31937;
     width: 100vw;
-    height:7vw;
+    height:17vh;
     z-index: 2;
 }
 
 .div_logo_footer{
     display: flex;
     margin-top: 0.5vw;
-    /* height: 15vh; */
 }
 
 .logo_footer{
